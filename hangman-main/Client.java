@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class Client {
 
     public static void main(String[] args) throws IOException {
-	// write your code here
         String host = "127.0.0.1";
         int port = 4001;
         try (Socket socket = new Socket(host, port)) {
